@@ -19,9 +19,9 @@ export default function App() {
   return (
     <div className={styles.index}>
       <div className={styles.content}>
-        <h1 className={styles.heading}>A short heading about [your app]</h1>
+        <h1 className={styles.heading}>PS Store Migration App</h1>
         <p className={styles.text}>
-          A tagline about [your app] that describes your value proposition.
+          Developed by Parkhya Solutions
         </p>
         {showForm && (
           <Form className={styles.form} method="post" action="/auth/login">
@@ -31,11 +31,11 @@ export default function App() {
               <span>e.g: my-shop-domain.myshopify.com</span>
             </label>
             <button className={styles.button} type="submit">
-              Log in
+             Install 
             </button>
           </Form>
         )}
-        <ul className={styles.list}>
+        {/* <ul className={styles.list}>
           <li>
             <strong>Product feature</strong>. Some detail about your feature and
             its benefit to your customer.
@@ -48,7 +48,7 @@ export default function App() {
             <strong>Product feature</strong>. Some detail about your feature and
             its benefit to your customer.
           </li>
-        </ul>
+        </ul> */}
       </div>
     </div>
   );

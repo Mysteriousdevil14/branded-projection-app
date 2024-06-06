@@ -1,8 +1,8 @@
 # Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
 
 client_id = "130f43b76720e5251ca1e17421a6a1cd"
-name = "branded-projection-app"
-handle = "branded-projection-app-12"
+name = "PS Store Migration App"
+handle = "ps-store-migration-app-12"
 application_url = "https://branded-projection-app.onrender.com"
 embedded = true
 
