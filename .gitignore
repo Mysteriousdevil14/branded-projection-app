@@ -9,5 +9,5 @@ node_modules
 /prisma/dev.sqlite
 /prisma/dev.sqlite-journal
 database.sqlite
-
+shopify.app.developer-app.toml
 .env
